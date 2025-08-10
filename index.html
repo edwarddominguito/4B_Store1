@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>4B's Store – Pryce Gas Delivery, Refill & Installation</title>
+  <meta name="description" content="Fast, safe Pryce Gas LPG delivery. Free safety check, proper installation, same-day service in select areas." />
+  <meta name="theme-color" content="#e53935" />
+  <meta property="og:title" content="4B's Store – Pryce Gas Delivery" />
+  <meta property="og:description" content="Fast, safe LPG delivery with free safety check. Same-day service available." />
+  <meta property="og:image" content="4B STORE.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"LocalBusiness","name":"4B’s Store","image":"4B STORE.jpg","description":"Authorized Pryce Gas dealer offering LPG delivery, refill, and installation.","telephone":"+63 910 150 6920","areaServed":"Philippines","openingHours":"Mo-Su 07:00-21:00"}
+  </script>
+</head>
+<body class="no-js">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- Announcement / promo -->
+  <div class="announce" id="announce" role="region" aria-label="Announcement">
+    <div class="wrap announce-row">
+      <span>🔥 New customer promo: <strong id="promoCodeText">PRYCE50</strong> — ₱50 off on first order</span>
+      <div class="announce-actions">
+        <button class="btn ghost sm" id="copyPromo">Copy code</button>
+        <button class="announce-close" id="announceClose" aria-label="Close">✕</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" role="banner">
+    <div class="wrap nav">
+      <a class="brand" href="#top" aria-label="4B’s Store home">
+        <div class="logo" aria-hidden="true">4B</div><span>4B’s Store</span>
+      </a>
+
+      <nav class="menu" id="menu" aria-label="Primary">
+        <a href="#top">Home</a>
+        <a href="#products">Products</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#services">Services</a>
+        <a href="#faq">FAQ</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn sm">Order Now</a>
+        <span class="dot-status" id="openDot" title="Store status"></span>
+        <button id="themeToggle" class="btn ghost sm" type="button" aria-label="Toggle dark mode">🌙</button>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-expanded="false" aria-controls="menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="wrap hero-grid">
+        <div class="card elevate fade">
+          <span class="pill">Authorized Pryce Gas Dealer</span>
+          <h1>Fast, safe LPG delivery in your area.</h1>
+          <p class="muted">Refill • Exchange • New set up • Installation • Safety check</p>
+          <div class="trust-row">
+            <span class="trust">✅ PS-mark regulators</span>
+            <span class="trust">🧪 Free leak test</span>
+            <span class="trust">🛡️ Safety-first installation</span>
+          </div>
+          <div class="cta">
+            <a class="btn primary" href="tel:+639101506920" aria-label="Call Smart">📞 Smart: 0910 150 6920</a>
+            <a class="btn dark" href="tel:+639953237395" aria-label="Call Globe">📞 Globe: 0995 323 7395</a>
+            <a class="btn ghost" href="#contact">Message / Order Form</a>
+          </div>
+          <p class="note muted">
+            Hours: <span id="hoursText">Mon–Sun 7:00 AM – 9:00 PM</span> • <strong id="openText">Checking...</strong>
+          </p>
+        </div>
+
+        <figure class="imgbox elevate fade">
+          <img src="4B STORE.jpg" alt="4B’s Store signage" loading="lazy" />
+        </figure>
+      </div>
+
+      <div class="bg-blur b1" aria-hidden="true"></div>
+      <div class="bg-blur b2" aria-hidden="true"></div>
+    </section>
+
+    <!-- REASONS -->
+    <section id="reasons" class="section alt">
+      <div class="wrap">
+        <header class="section-head">
+          <h2 class="section-title">Why choose 4B’s?</h2>
+          <p class="section-sub muted">We focus on speed, safety, and service.</p>
+        </header>
+        <div class="grid features">
+          <div class="card mini fade"><h3>⚡ Fast Delivery</h3><p class="muted">Same-day in select barangays.</p></div>
+          <div class="card mini fade"><h3>🧯 Safety Check</h3><p class="muted">Free bubble/leak test every order.</p></div>
+          <div class="card mini fade"><h3>🧰 Pro Install</h3><p class="muted">Proper regulator + hose fitting.</p></div>
+          <div class="card mini fade"><h3>💬 Easy Ordering</h3><p class="muted">Call, text, or form—your choice.</p></div>
+          <div class="card mini fade"><h3>🔄 Exchange/Refill</h3><p class="muted">7kg & 11kg cylinders handled.</p></div>
+          <div class="card mini fade"><h3>🏷️ Fair Pricing</h3><p class="muted">Transparent rates + promos.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section id="products" class="section">
+      <div class="wrap">
+        <header class="section-head">
+          <h2 class="section-title">Products</h2>
+          <p class="section-sub muted">Quality LPG and safe accessories for home & business.</p>
+        </header>
+        <div class="grid">
+          <article class="card elevate fade">
+            <h3>11kg Pryce Gas</h3>
+            <span class="badge">Refill / Exchange</span>
+            <ul class="list">
+              <li>Free safety leak check</li>
+              <li>Delivery & installation</li>
+            </ul>
+          </article>
+          <article class="card elevate fade">
+            <h3>7kg Pryce Gas</h3>
+            <span class="badge">Refill / Exchange</span>
+            <ul class="list">
+              <li>Budget-friendly for small homes</li>
+              <li>Fast delivery</li>
+            </ul>
+          </article>
+          <article class="card elevate fade">
+            <h3>Accessories</h3>
+            <span class="badge">Regulator • Hose • Clamp</span>
+            <ul class="list">
+              <li>PS-marked regulators</li>
+              <li>Installation on request</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING & PROMOS -->
+    <section id="pricing" class="section">
+      <div class="wrap">
+        <header class="section-head">
+          <h2 class="section-title">Pricing & Promos</h2>
+          <p class="section-sub muted">Use code <strong id="promoInline">PRYCE50</strong> for ₱50 off (first-time orders).</p>
+        </header>
+
+        <div class="grid pricing">
+          <article class="card elevate price fade">
+            <div class="ribbon">Most Popular</div>
+            <h3>11kg Refill</h3>
+            <p class="big">₱<span id="p11r">—</span></p>
+            <ul class="list">
+              <li>Free leak test</li>
+              <li>Doorstep delivery</li>
+              <li>Install guidance</li>
+            </ul>
+            <a class="btn primary" href="#contact">Order 11kg Refill</a>
+          </article>
+
+          <article class="card elevate price fade">
+            <h3>11kg Exchange</h3>
+            <p class="big">₱<span id="p11x">—</span></p>
+            <ul class="list">
+              <li>Swap empty tank</li>
+              <li>Quick setup</li>
+              <li>Free safety check</li>
+            </ul>
+            <a class="btn primary" href="#contact">Order 11kg Exchange</a>
+          </article>
+
+          <article class="card elevate price fade">
+            <h3>7kg Refill</h3>
+            <p class="big">₱<span id="p7r">—</span></p>
+            <ul class="list">
+              <li>Budget friendly</li>
+              <li>For small homes</li>
+              <li>Fast delivery</li>
+            </ul>
+            <a class="btn primary" href="#contact">Order 7kg Refill</a>
+          </article>
+        </div>
+
+        <!-- Price comparison -->
+        <div class="card elevate compare fade">
+          <h3>Compare Prices (Typical)</h3>
+          <div class="table">
+            <div class="t-row t-head">
+              <div>Item</div><div>4B’s Store</div><div>Competitor A</div><div>Competitor B</div>
+            </div>
+            <div class="t-row">
+              <div>11kg Refill</div><div class="me">₱<span id="c11r">—</span></div><div>₱1,020–1,150</div><div>₱1,050–1,180</div>
+            </div>
+            <div class="t-row">
+              <div>11kg Exchange</div><div class="me">₱<span id="c11x">—</span></div><div>₱1,150–1,280</div><div>₱1,180–1,300</div>
+            </div>
+            <div class="t-row">
+              <div>7kg Refill</div><div class="me">₱<span id="c7r">—</span></div><div>₱700–780</div><div>₱720–800</div>
+            </div>
+          </div>
+          <p class="note muted">* Competitor prices are typical ranges in nearby areas. Actual varies by location and date.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- DELIVERY ETA -->
+    <section id="eta" class="section alt">
+      <div class="wrap">
+        <header class="section-head">
+          <h2 class="section-title">Check Delivery ETA</h2>
+          <p class="section-sub muted">Choose your barangay to see an estimated delivery time.</p>
+        </header>
+        <div class="eta card elevate fade">
+          <label for="area">Barangay / Area</label>
+          <select id="area">
+            <option value="">Select area</option>
+            <option>San Isidro</option>
+            <option>San Roque</option>
+            <option>San Vicente</option>
+            <option>Poblacion</option>
+            <option>Bagong Silang</option>
+          </select>
+          <div class="eta-result" id="etaResult">—</div>
+          <p class="note muted">This is an estimate based on traffic/time of day.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- GUARANTEE -->
+    <section id="guarantee" class="section">
+      <div class="wrap">
+        <div class="card elevate guarantee fade">
+          <h2>Our Safety Guarantee</h2>
+          <ul class="list">
+            <li>Free leak/bubble test at every delivery</li>
+            <li>Hose/regulator inspection + proper fitting</li>
+            <li>Advice on safe cylinder placement and use</li>
+          </ul>
+          <p class="muted">Not satisfied with the installation? We’ll come back to fix it—no charge.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section id="reviews" class="section">
+      <div class="wrap">
+        <h2 class="section-title">What Customers Say</h2>
+        <div class="reviews card elevate">
+          <p class="review-text" id="reviewText">“Super bilis ng delivery, very safe mag-install. Salamat 4B’s!”</p>
+          <div class="review-dots">
+            <button class="dot" aria-label="Review 1"></button>
+            <button class="dot" aria-label="Review 2"></button>
+            <button class="dot" aria-label="Review 3"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+      <div class="wrap">
+        <h2 class="section-title">FAQ</h2>
+        <div class="faq">
+          <details class="elevate fade">
+            <summary><strong>Do you accept GCash?</strong></summary>
+            <p class="muted">Yes! Tap the <em>GCash</em> button to pay using our QR or number.</p>
+            <p><button class="btn" id="openQR">Open GCash QR</button></p>
+          </details>
+          <details class="elevate fade">
+            <summary><strong>What areas do you serve?</strong></summary>
+            <p class="muted">List your barangays/subdivisions here.</p>
+          </details>
+          <details class="elevate fade">
+            <summary><strong>Payment options?</strong></summary>
+            <p class="muted">Cash, GCash, or bank transfer. Ask for details when you order.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section alt">
+      <div class="wrap">
+        <h2 class="section-title">About Us</h2>
+        <p class="muted">
+          4B’s Store is an authorized Pryce Gas dealer committed to fast, safe, and friendly LPG service in your community.
+          We offer reliable delivery, proper installation, and free safety checks to ensure your peace of mind.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT / ORDER -->
+    <section id="contact" class="section">
+      <div class="wrap">
+        <h2 class="section-title">Contact & Orders</h2>
+        <div class="contact">
+          <form id="order" class="card elevate fade" aria-label="Order form">
+            <input name="name" placeholder="Full name" autocomplete="name" required />
+            <input name="phone" placeholder="Mobile number" autocomplete="tel" required />
+            <input name="address" placeholder="Complete address" autocomplete="street-address" required />
+            <select name="item" required>
+              <option value="">Select item</option>
+              <option>11kg Refill</option>
+              <option>11kg Exchange</option>
+              <option>7kg Refill</option>
+              <option>7kg Exchange</option>
+              <option>New set with regulator & hose</option>
+            </select>
+            <textarea name="notes" rows="4" placeholder="Notes (landmark, time preference)"></textarea>
+            <div class="row">
+              <button class="btn primary" type="submit">Send Order via SMS</button>
+              <button class="btn" type="button" id="openQR2">Pay via GCash</button>
+            </div>
+            <p class="note muted">This opens your SMS app with a pre-filled message.</p>
+          </form>
+
+          <aside class="card elevate fade">
+            <h3>Store Details</h3>
+            <p><strong>4B’s Store</strong><br>Authorized Pryce Gas Dealer</p>
+            <p>
+              <strong>Call/Text:</strong><br>
+              Smart: <a href="tel:+639101506920">0910 150 6920</a><br>
+              Globe: <a href="tel:+639953237395">0995 323 7395</a>
+            </p>
+            <p><strong>Address:</strong> Your full address here</p>
+            <div class="map">
+              <iframe title="Map" src="https://www.google.com/maps?q=Philippines&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Sticky order bar -->
+  <div class="orderbar" id="orderbar">
+    <span><strong>Status:</strong> <span id="openTextBar">Checking...</span></span>
+    <a href="tel:+639101506920" class="btn dark sm">Call</a>
+    <a href="sms:+639101506920" class="btn sm">Text</a>
+    <a href="#contact" class="btn primary sm">Order Now</a>
+    <button class="btn sm" id="openQR3">GCash</button>
+  </div>
+
+  <footer class="footer" role="contentinfo">
+    <div class="wrap">
+      <div class="brand light">
+        <div class="logo" aria-hidden="true">4B</div><span>4B’s Store</span>
+      </div>
+      <p class="muted">Basta PRYCEGAS, LPG! Basta LPG, PRYCEGAS!</p>
+      <p class="muted">© <span id="y"></span> 4B’s Store. All rights reserved.</p>
+    </div>
+    <button id="toTop" class="to-top" aria-label="Back to top">↑</button>
+  </footer>
+
+  <!-- Floating Quick Actions (mobile) -->
+  <div class="fab-wrap">
+    <a class="fab" href="tel:+639101506920" aria-label="Call Smart">📞</a>
+    <a class="fab" href="sms:+639101506920" aria-label="Text Smart">✉️</a>
+  </div>
+
+  <!-- GCash Modal -->
+  <div class="modal" id="qrModal" role="dialog" aria-modal="true" aria-labelledby="qrTitle" aria-hidden="true">
+    <div class="modal-backdrop" id="qrBackdrop"></div>
+    <div class="modal-dialog" role="document">
+      <button class="modal-close" id="qrClose" aria-label="Close">✕</button>
+      <h3 id="qrTitle">GCash Payment</h3>
+      <p class="muted small">Scan the QR or copy the details below.</p>
+      <div class="qr-wrap">
+        <img src="GCash-Logo.png" alt="GCash-Logo" />
+      </div>
+      <div class="copy-grid">
+        <div><strong>Account Name:</strong> <span id="gcashName">4B’s Store</span> <button class="chip" data-copy="#gcashName">Copy</button></div>
+        <div><strong>Mobile No.:</strong> <span id="gcashNumber">0995 323 7395</span> <button class="chip" data-copy="#gcashNumber">Copy</button></div>
+      </div>
+      <p class="muted small">After payment, please send a screenshot or reference number via text.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <noscript><style>.no-js .fade{opacity:1;transform:none}</style></noscript>
+</body>
+</html>
